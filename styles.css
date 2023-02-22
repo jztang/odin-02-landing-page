@@ -133,3 +133,40 @@ a {
   text-align: right;
   margin: 0;
 }
+
+/* call */
+
+.call {
+  padding: 100px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-container {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
+}
+
+.call-header {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+.call-desc {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0;
+}
+
+.call-container .sign-up-btn {
+  border: 2px solid white;
+  flex-shrink: 0;
+}
