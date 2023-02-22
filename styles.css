@@ -88,7 +88,6 @@ a {
 }
 
 .info-item {
-  /* border: 1px dotted rebeccapurple; */
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -107,4 +106,30 @@ a {
   text-align: center;
   font-size: 18px;
   color: #1f2937;
+}
+
+/* quote */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  width: 900px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  margin: 0 0 15px 0;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
 }
