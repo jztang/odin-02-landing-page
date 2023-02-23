@@ -170,3 +170,18 @@ a {
   border: 2px solid white;
   flex-shrink: 0;
 }
+
+/* footer */
+
+footer {
+  background-color: #1f2937;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
